@@ -12,9 +12,9 @@
 //Java program to simulate a robot to deliver medication in a hosptial.
 // The robot moves medication from the warehouse to several rooms.
 // The robot can move and has several features:
-//1) A screen to display messages
-//2) A keybaord to receive insturctions
-//3) A vault with locked drawers to move the medication
+//1) A screen to display messages.
+//2) A keybaord to receive insturctions.
+//3) A vault with locked drawers to move the medication. 
 
 // The robot moves along a predefined pathway from the warehouse to all rooms. In order to 
 // simplify the problem, the pathway will be made of fully horizontal or vertical moves.
