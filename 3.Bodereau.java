@@ -45,25 +45,16 @@ public Bodereau() {
             System.out.println("Livraison #" +livraisonNb);
         
             //Key in the column number (numéro de colonne de la position où le robot doit s’arreter pour la i-eme livraison)
-            int temp = -1;
-            while(temp<0||temp>9) {
                 System.out.println("numéro de colonne de la position où le robot doit s’arreter pour la livraison #"+livraisonNb+" (entre 0 et 9):");
-                temp = input.nextInt();
-                list[livraisonNb-1][0] = temp;}
+                list[livraisonNb-1][0] = input.nextInt();
         
             //Key in the row number (numéro de ligne de la position où le robot doit s’arreter pour la i-eme livraison)
-            temp = -1;
-            while(temp<0||temp>9) {
                 System.out.println("numéro de ligne de la position où le robot doit s’arreter pour la livraison #"+livraisonNb+" (entre 0 et 9):");
-                temp = input.nextInt();
-                list[livraisonNb-1][1] = temp;}
+                list[livraisonNb-1][1] = input.nextInt();
 
             //Key in the delivery room number (numéro de la salle à livrer pour la i-eme livraison)
-            temp = -1;
-            while(temp<1||temp>5) {
                 System.out.println("numéro de la salle à livrer pour la livraison #"+livraisonNb+" (entre 1 et 5):");
-                temp = input.nextInt();
-                list[livraisonNb-1][2] = temp;}
+                list[livraisonNb-1][2] = input.nextInt();
 
             //Key in the password (code pour la i-eme livraison)
                 System.out.println("code pour la livraison #"+livraisonNb+" (entier):");
